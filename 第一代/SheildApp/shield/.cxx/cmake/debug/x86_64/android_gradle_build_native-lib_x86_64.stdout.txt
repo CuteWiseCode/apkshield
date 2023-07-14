@@ -1,0 +1,3 @@
+ninja: Entering directory `E:\androidWorkSpace\ProtectApp\shield\.cxx\cmake\debug\x86_64'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library E:\androidWorkSpace\ProtectApp\shield\build\intermediates\cmake\debug\obj\x86_64\libnative-lib.so

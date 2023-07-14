@@ -1,0 +1,30 @@
+allprojects {
+
+    afterEvaluate { project ->
+
+        if (!project.hasProperty("android"))
+            return
+        def hasApplication = project.android.defaultConfig != null && project.android.defaultConfig.applicationId != null
+
+        if (hasApplication) {
+            def useShield = getPropertyValue("useShield")
+            println("useShield->" + useShield)
+            //是否开启插件
+            if (useShield.toBoolean()) {
+                project.pluginManager.apply("com.dn.shield")
+            }
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+

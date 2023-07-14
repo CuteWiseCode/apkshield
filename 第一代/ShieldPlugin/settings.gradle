@@ -1,0 +1,4 @@
+rootProject.name = "ShieldPlugin"
+include ':app'
+include ':ShieldPlugin'
+include ':nativelib'

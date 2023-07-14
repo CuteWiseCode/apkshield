@@ -1,0 +1,51 @@
+
+allprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty("android")
+                && project != rootProject) {
+            addBuildField(project)
+        }
+
+    }
+}
+
+
+ext {
+    getDefaultPropertyValue = { String key, Object defaultValue ->
+        def value = properties.get(key, null)
+        if (value == null) {
+            // 读取自定义配置文件
+            Properties properties = new Properties()
+            properties.load(project.rootProject.file('modules\\gradle.properties').newDataInputStream())
+            value = properties.get(key, defaultValue)
+        }
+        if (value == null) {
+            throw new StopExecutionException("没有找到动态参数 ${key}的定义)")
+        }
+        println("getPropertyValue--key:${key}---value:$value")
+        return value
+    }
+
+    getPropertyValue = { String key ->
+        return getDefaultPropertyValue(key, null)
+    }
+}
+
+/**
+ * 自动添加buildConfigField
+ */
+private void addBuildField(Project project) {
+    def buildFile = new File(project.projectDir, "build.gradle")
+    if (buildFile.exists()) {
+        def hasApplication = project.plugins.hasPlugin("com.android.application")
+        if (hasApplication) {
+            project.android.applicationVariants.all { variant ->
+                //是否白包
+                variant.buildConfigField "Boolean", "isWhiteWrap", "${getPropertyValue("isWhiteWrap")}"
+            }
+        }
+    }
+}
+
+
+

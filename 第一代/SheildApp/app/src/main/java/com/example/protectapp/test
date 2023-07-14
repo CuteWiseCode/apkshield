@@ -1,0 +1,34 @@
+ // 64 bit so that we can share the same asm offsets for both 32 and 64 bits.
+    uint64_t callee_save_methods_[3];
+    int pre_allocated_OutOfMemoryError_;
+    int pre_allocated_NoClassDefFoundError_;
+    void *resolution_method_;
+    void *imt_conflict_method_;
+    // Unresolved method has the same behavior as the conflict method, it is used by the class linker
+    // for differentiating between unfilled imt slots vs conflict slots in superclasses.
+    void *imt_unimplemented_method_;
+
+    // Special sentinel object used to invalid conditions in JNI (cleared weak references) and
+    // JDWP (invalid references).
+    int sentinel_;
+
+    InstructionSet instruction_set_;
+    art::QuickMethodFrameInfo callee_save_method_frame_infos_[9]; // QuickMethodFrameInfo = uint32_t * 3
+
+    void *compiler_callbacks_;
+    bool is_zygote_;
+    bool must_relocate_;
+    bool is_concurrent_gc_enabled_;
+    bool is_explicit_gc_disabled_;
+    bool dex2oat_enabled_;
+    bool image_dex2oat_enabled_;
+
+    std::string compiler_executable_;
+    std::string patchoat_executable_;
+    std::vector<std::string> compiler_options_;
+    std::vector<std::string> image_compiler_options_;
+    std::string image_location_;
+
+    std::string boot_class_path_string_;
+    std::string class_path_string_;
+    std::vector<std::string> properties_;

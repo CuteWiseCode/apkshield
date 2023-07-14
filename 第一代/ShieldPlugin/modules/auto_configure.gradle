@@ -1,0 +1,3 @@
+apply from: 'modules/common_build.gradle'
+apply from: "modules/plugins/shield/shield_wrapper.gradle"
+

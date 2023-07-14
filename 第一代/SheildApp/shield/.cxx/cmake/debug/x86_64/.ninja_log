@@ -1,0 +1,4 @@
+# ninja log v5
+1	535	698072359	CMakeFiles/native-lib.dir/native-lib.cpp.o	1886be7f9d62a3bd
+535	637	698072359	E:/androidWorkSpace/ProtectApp/shield/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	ceb9116dc407ce22
+0	6	0	clean	9f571e4fb6684d74
