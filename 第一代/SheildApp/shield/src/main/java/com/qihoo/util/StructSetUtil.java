@@ -5,8 +5,6 @@ import android.os.Build;
 import java.lang.reflect.Method;
 
 /**
- * @Author: hzh
- * @Date: 2023/1/13
  * @Desc: 获取指令集，当c++寻址失败，则调用此工具来获取
  */
 public class StructSetUtil {

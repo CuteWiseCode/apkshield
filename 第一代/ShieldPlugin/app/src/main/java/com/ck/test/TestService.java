@@ -7,11 +7,7 @@ import android.os.Process;
 
 import androidx.annotation.Nullable;
 
-/**
- * @Author: hzh
- * @Date: 2022/12/13
- * @Desc: java类作用描述
- */
+
 public class TestService extends Service {
 
 

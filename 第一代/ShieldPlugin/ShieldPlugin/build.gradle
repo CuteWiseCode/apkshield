@@ -35,16 +35,12 @@ uploadArchives{ //当前项目可以发布到本地文件夹中
             if(useLocalMaven.toBoolean())
             {
                 repository(url: mavenLocal().url) //定义本地maven仓库的地址
-            }else{
-                repository(url: uri('http://dnsdk.vimedia.cn:8081/repository/Viapp-release')) {
-                    authentication(userName: 'vapp-deployment', password: 'pwd123456')
-                }
             }
 
             pom {
-                groupId="com.dn.plugin"
+                groupId="com.ck.plugin"
                 artifactId="shield-dex"
-                version="1.0.25"
+                version="1.0.0"
             }
         }
     }

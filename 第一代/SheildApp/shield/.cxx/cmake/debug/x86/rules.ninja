@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__native-lib
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/src/main/cpp -B/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86
+  command = /Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/src/main/cpp -B/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86
   description = Re-running CMake...
   generator = 1
 

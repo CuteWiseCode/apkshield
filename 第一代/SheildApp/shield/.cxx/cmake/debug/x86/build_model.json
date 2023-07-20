@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86",
-    "cmakeServerLogFile": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cxx/debug/x86",
+    "cmakeArtifactsBaseFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86",
+    "cmakeServerLogFile": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cxx/debug/x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86",
+      "buildRoot": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86",
       "cmakeToolchain": "/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/prefab/x86/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/build/intermediates/cmake/debug/obj/x86"
+          "value": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86",
+  "cxxBuildFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86",
+  "originalCxxBuildFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -98,12 +98,12 @@
         "ninjaExe": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
       "cmakeToolchainFile": "/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx",
+      "cxxFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx",
       "gradleModulePathName": ":shield",
-      "intermediatesFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/build/intermediates",
-      "makeFile": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/src/main/cpp/CMakeLists.txt",
-      "moduleBuildFile": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/build.gradle",
-      "moduleRootFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield",
+      "intermediatesFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/build/intermediates",
+      "makeFile": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/src/main/cpp/CMakeLists.txt",
+      "moduleBuildFile": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/build.gradle",
+      "moduleRootFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -167,12 +167,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/.cxx",
-        "cxxFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/.cxx",
+        "compilerSettingsCacheFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/.cxx",
+        "cxxFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp",
+        "rootBuildGradleFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp",
         "sdkFolder": "/Users/wisdom/Library/Android/sdk",
         "isPrefabEnabled": false
       },
@@ -189,7 +189,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/build/intermediates/cmake/debug/obj",
+    "objFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -197,8 +197,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/prefab/x86"
 }

@@ -6,8 +6,6 @@ import android.content.SharedPreferences;
 import com.stub.StubApp;
 
 /**
- * @Author: hzh
- * @Date: 2023/1/31
  * @Desc: java类作用描述
  */
 public class SpUtil {

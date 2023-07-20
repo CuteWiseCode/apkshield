@@ -1,33 +1,33 @@
 {
   "stringTable": {
-    "0": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86",
+    "0": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86",
     "1": "--target=i686-none-linux-android21 --gcc-toolchain=/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/src/main/cpp/CMakeLists.txt",
+    "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/src/main/cpp/CMakeLists.txt",
     "/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
     "/Users/wisdom/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86\" clean"
+    "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86\" clean"
   ],
-  "buildTargetsCommand": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-x86": {
-      "buildCommand": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/.cxx/cmake/debug/x86\" native-lib",
+      "buildCommand": "/Users/wisdom/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/.cxx/cmake/debug/x86\" native-lib",
       "buildType": "debug",
       "toolchain": "1421912912",
       "abi": "x86",
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/src/main/cpp/native-lib.cpp",
+          "src": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/src/main/cpp/native-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/Users/wisdom/development/dn/apkshield/apkshield/SheildApp/shield/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+      "output": "/Users/wisdom/development/dn/apkshield/第一代/SheildApp/shield/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
       "runtimeFiles": []
     }
   },

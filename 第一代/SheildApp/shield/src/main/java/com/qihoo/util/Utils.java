@@ -7,9 +7,8 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Iterator;
 import java.util.zip.Adler32;
 
-/**
- * @author hzh
- */
+
+
 public class Utils {
 
 
