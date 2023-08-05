@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.application'
+}
+apply from: "../modules/plugins/shield/shield_wrapper.gradle"
+
+
+
+android {
+    compileSdk 32
+    //设置签名，debug运行也用正式签名
+    signingConfigs {
+        config {
+            storeFile file('../files/test.jks')
+            storePassword "111111"
+            keyAlias "key0"
+            keyPassword "111111"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+
+    }
+    defaultConfig {
+        applicationId "com.ck.shieldplugin"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        //测试包
+        debug {
+            /* 是否开启代码混淆，默认false */
+            minifyEnabled true
+            /* 是否应该生成可调试的apk */
+//            debuggable true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+        release {
+            debuggable true
+            minifyEnabled false
+            /* 移除无用的resource文件 */
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+}
+
+
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation files('libs/AXMLEditor2.jar')
+//    implementation project(":nativelib")
+
+}
+
+
