@@ -40,6 +40,7 @@ useLocalMaven = true
 
 #### 3.编译
 注意，需要执行sheild task 而不是普通的assemble 或者 generate apk
+
 As -> Gradle -> app -> Tasks -> shield ->shieldxxx  XXX可以选择debug 或者 release 
 
 编译完成后，会输出到 build -> outputs -> apk -> app-xxx.apk
