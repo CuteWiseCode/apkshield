@@ -39,6 +39,11 @@ useLocalMaven = true
 在AS 左侧 Gradle -> ShieldPlugin ->Tasks -> upload -> 点击uploadArchives
 
 #### 3.编译
+gradle.properties 下配置
+```
+useShield = true #true 表示开启加固
+```
+
 注意，需要执行sheild task 而不是普通的assemble 或者 generate apk
 
 As -> Gradle -> app -> Tasks -> shield ->shieldxxx  XXX可以选择debug 或者 release 
